@@ -1,0 +1,1 @@
+# Proyecto Equipo\nProyecto colaborativo para practicar Git.

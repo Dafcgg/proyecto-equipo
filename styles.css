@@ -1,22 +1,44 @@
-nav ul {
-    list-style: none;
+* {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+header {
     display: flex;
-    gap: 20px;
-    }
+    justify-content: space-between;
+    align-items: center;
+    background: #1e1e2f;
+    padding: 15px 40px;
+}
 
-nav li {
-    font-size: 18px;
-    }
+.logo {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
 
-nav a {
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
     text-decoration: none;
-    color: #007bff;
-    padding: 5px 10px;
-    border-radius: 4px;
-    transition: background 0.3s;
-    }
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
 
-nav a:hover {
-    background: #e0e0e0;
-    }
+.menu a:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+main {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}

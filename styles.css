@@ -1,1 +1,22 @@
-body { font-family: Arial; margin: 0; padding: 20px; }
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    }
+
+nav li {
+    font-size: 18px;
+    }
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background 0.3s;
+    }
+
+nav a:hover {
+    background: #e0e0e0;
+    }
